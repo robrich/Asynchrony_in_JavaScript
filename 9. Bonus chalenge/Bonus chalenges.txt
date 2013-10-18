@@ -1,0 +1,11 @@
+Bonus chalenge:
+
+1. Rewrite Asynchrony_in_JavaScript.js from excercise 2
+to be much more legible by using async.series()
+
+2. Rewrite Asynchrony_in_JavaScript.js from excercise 2
+to run much faster but produce the same output
+(hint: move the console.log lines)
+
+3. Rewrite an excercise you did in another session
+to run much faster or to be much more legible
