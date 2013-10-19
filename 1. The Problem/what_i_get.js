@@ -11,6 +11,7 @@ var myCode = function () {
 		dostep2('2 in', function (err, result) {
 			dostep3('3 in', function (err, result) {
 				console.log('all done');
+				analysis();
 				// We're all done with the process
 				// but how do we get out of the airplane?
 			});
@@ -26,6 +27,14 @@ var myCode = function () {
 //           /
 //          /
 
+
+var analysis = function () {
+	console.log('');
+	console.log('Both these files get the same result');
+	console.log('but reading the sourcecode is very different.');
+	console.log('How can we make the source easier to read');
+	console.log('while preserving the asynchronous nature of our code?');
+};
 
 var dostep1 = function (arg1, callback) {
 	console.log('step1');

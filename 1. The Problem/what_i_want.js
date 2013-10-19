@@ -9,9 +9,17 @@ var myCode = function () {
 	var step2result = dostep2();
 	var step3result = dostep3();
 	console.log('all done');
+	analysis();
 };
 
 
+var analysis = function () {
+	console.log('');
+	console.log('Both these files get the same result');
+	console.log('but reading the sourcecode is very different.');
+	console.log('How can we make the source easier to read');
+	console.log('while preserving the asynchronous nature of our code?');
+};
 
 var dostep1 = function () {
 	console.log('step1');
