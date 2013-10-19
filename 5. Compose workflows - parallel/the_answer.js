@@ -31,7 +31,7 @@ async.parallel([
 		return console.log('it broke');
 	}
 	console.log('it worked and returned');
-	console.log(arrayOfResults);	
+	console.log(arrayOfResults);
 });
 
 */
@@ -41,7 +41,6 @@ var myCode = function () {
 
 	// Here's my solution. Is yours similar?
 
-	var start = new Date();
 	async.parallel([
 		function (callback) {
 			dostep1(function (err, result1) {
